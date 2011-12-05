@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CC34A39148D6D6B00598D3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC34A38148D6D6B00598D3B /* UIKit.framework */; };
+		4CC34A3B148D6D6B00598D3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC34A3A148D6D6B00598D3B /* Foundation.framework */; };
+		4CC34A3D148D6D6B00598D3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC34A3C148D6D6B00598D3B /* CoreGraphics.framework */; };
+		4CC34A43148D6D6B00598D3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A41148D6D6B00598D3B /* InfoPlist.strings */; };
+		4CC34A45148D6D6B00598D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A44148D6D6B00598D3B /* main.m */; };
+		4CC34A49148D6D6B00598D3B /* aws_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A48148D6D6B00598D3B /* aws_AppDelegate.m */; };
+		4CC34A4C148D6D6B00598D3B /* aws_MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A4B148D6D6B00598D3B /* aws_MasterViewController.m */; };
+		4CC34A4F148D6D6B00598D3B /* aws_DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A4E148D6D6B00598D3B /* aws_DetailViewController.m */; };
+		4CC34A52148D6D6B00598D3B /* aws_MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A50148D6D6B00598D3B /* aws_MasterViewController.xib */; };
+		4CC34A55148D6D6B00598D3B /* aws_DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A53148D6D6B00598D3B /* aws_DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CC34A34148D6D6B00598D3B /* ScavengerHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScavengerHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC34A38148D6D6B00598D3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CC34A3A148D6D6B00598D3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CC34A3C148D6D6B00598D3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CC34A40148D6D6B00598D3B /* ScavengerHunt-Info.plist */ = {isa = PBXFileReference; path = "ScavengerHunt-Info.plist"; sourceTree = "<group>"; };
+		4CC34A42148D6D6B00598D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CC34A44148D6D6B00598D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CC34A46148D6D6B00598D3B /* ScavengerHunt-Prefix.pch */ = {isa = PBXFileReference; path = "ScavengerHunt-Prefix.pch"; sourceTree = "<group>"; };
+		4CC34A47148D6D6B00598D3B /* aws_AppDelegate.h */ = {isa = PBXFileReference; path = aws_AppDelegate.h; sourceTree = "<group>"; };
+		4CC34A48148D6D6B00598D3B /* aws_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aws_AppDelegate.m; sourceTree = "<group>"; };
+		4CC34A4A148D6D6B00598D3B /* aws_MasterViewController.h */ = {isa = PBXFileReference; path = aws_MasterViewController.h; sourceTree = "<group>"; };
+		4CC34A4B148D6D6B00598D3B /* aws_MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aws_MasterViewController.m; sourceTree = "<group>"; };
+		4CC34A4D148D6D6B00598D3B /* aws_DetailViewController.h */ = {isa = PBXFileReference; path = aws_DetailViewController.h; sourceTree = "<group>"; };
+		4CC34A4E148D6D6B00598D3B /* aws_DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aws_DetailViewController.m; sourceTree = "<group>"; };
+		4CC34A51148D6D6B00598D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/aws_MasterViewController.xib; sourceTree = "<group>"; };
+		4CC34A54148D6D6B00598D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/aws_DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CC34A31148D6D6B00598D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC34A39148D6D6B00598D3B /* UIKit.framework in Frameworks */,
+				4CC34A3B148D6D6B00598D3B /* Foundation.framework in Frameworks */,
+				4CC34A3D148D6D6B00598D3B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC34A29148D6D6B00598D3B = {
+			isa = PBXGroup;
+			children = (
+				4CC34A3E148D6D6B00598D3B /* ScavengerHunt */,
+				4CC34A37148D6D6B00598D3B /* Frameworks */,
+				4CC34A35148D6D6B00598D3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CC34A35148D6D6B00598D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CC34A34148D6D6B00598D3B /* ScavengerHunt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC34A37148D6D6B00598D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CC34A38148D6D6B00598D3B /* UIKit.framework */,
+				4CC34A3A148D6D6B00598D3B /* Foundation.framework */,
+				4CC34A3C148D6D6B00598D3B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CC34A3E148D6D6B00598D3B /* ScavengerHunt */ = {
+			isa = PBXGroup;
+			children = (
+				4CC34A47148D6D6B00598D3B /* aws_AppDelegate.h */,
+				4CC34A48148D6D6B00598D3B /* aws_AppDelegate.m */,
+				4CC34A4A148D6D6B00598D3B /* aws_MasterViewController.h */,
+				4CC34A4B148D6D6B00598D3B /* aws_MasterViewController.m */,
+				4CC34A4D148D6D6B00598D3B /* aws_DetailViewController.h */,
+				4CC34A4E148D6D6B00598D3B /* aws_DetailViewController.m */,
+				4CC34A50148D6D6B00598D3B /* aws_MasterViewController.xib */,
+				4CC34A53148D6D6B00598D3B /* aws_DetailViewController.xib */,
+				4CC34A3F148D6D6B00598D3B /* Supporting Files */,
+			);
+			path = ScavengerHunt;
+			sourceTree = "<group>";
+		};
+		4CC34A3F148D6D6B00598D3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC34A40148D6D6B00598D3B /* ScavengerHunt-Info.plist */,
+				4CC34A41148D6D6B00598D3B /* InfoPlist.strings */,
+				4CC34A44148D6D6B00598D3B /* main.m */,
+				4CC34A46148D6D6B00598D3B /* ScavengerHunt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CC34A33148D6D6B00598D3B /* ScavengerHunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC34A58148D6D6B00598D3B /* Build configuration list for PBXNativeTarget "ScavengerHunt" */;
+			buildPhases = (
+				4CC34A30148D6D6B00598D3B /* Sources */,
+				4CC34A31148D6D6B00598D3B /* Frameworks */,
+				4CC34A32148D6D6B00598D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScavengerHunt;
+			productName = ScavengerHunt;
+			productReference = 4CC34A34148D6D6B00598D3B /* ScavengerHunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CC34A2B148D6D6B00598D3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4CC34A2E148D6D6B00598D3B /* Build configuration list for PBXProject "ScavengerHunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CC34A29148D6D6B00598D3B;
+			productRefGroup = 4CC34A35148D6D6B00598D3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CC34A33148D6D6B00598D3B /* ScavengerHunt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CC34A32148D6D6B00598D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC34A43148D6D6B00598D3B /* InfoPlist.strings in Resources */,
+				4CC34A52148D6D6B00598D3B /* aws_MasterViewController.xib in Resources */,
+				4CC34A55148D6D6B00598D3B /* aws_DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC34A30148D6D6B00598D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC34A45148D6D6B00598D3B /* main.m in Sources */,
+				4CC34A49148D6D6B00598D3B /* aws_AppDelegate.m in Sources */,
+				4CC34A4C148D6D6B00598D3B /* aws_MasterViewController.m in Sources */,
+				4CC34A4F148D6D6B00598D3B /* aws_DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CC34A41148D6D6B00598D3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC34A42148D6D6B00598D3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CC34A50148D6D6B00598D3B /* aws_MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC34A51148D6D6B00598D3B /* en */,
+			);
+			name = aws_MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		4CC34A53148D6D6B00598D3B /* aws_DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC34A54148D6D6B00598D3B /* en */,
+			);
+			name = aws_DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CC34A56148D6D6B00598D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CC34A57148D6D6B00598D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CC34A59148D6D6B00598D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScavengerHunt/ScavengerHunt-Prefix.pch";
+				INFOPLIST_FILE = "ScavengerHunt/ScavengerHunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CC34A5A148D6D6B00598D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScavengerHunt/ScavengerHunt-Prefix.pch";
+				INFOPLIST_FILE = "ScavengerHunt/ScavengerHunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CC34A2E148D6D6B00598D3B /* Build configuration list for PBXProject "ScavengerHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC34A56148D6D6B00598D3B /* Debug */,
+				4CC34A57148D6D6B00598D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC34A58148D6D6B00598D3B /* Build configuration list for PBXNativeTarget "ScavengerHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC34A59148D6D6B00598D3B /* Debug */,
+				4CC34A5A148D6D6B00598D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CC34A2B148D6D6B00598D3B /* Project object */;
+}
