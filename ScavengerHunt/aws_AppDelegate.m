@@ -8,7 +8,7 @@
 
 #import "aws_AppDelegate.h"
 
-#import "aws_MasterViewController.h"
+#import "LoginViewController.h"
 
 @implementation aws_AppDelegate
 
@@ -20,7 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 
-    aws_MasterViewController *masterViewController = [[aws_MasterViewController alloc] initWithNibName:@"aws_MasterViewController" bundle:nil];
+    LoginViewController *masterViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];

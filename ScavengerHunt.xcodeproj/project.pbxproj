@@ -13,10 +13,30 @@
 		4CC34A43148D6D6B00598D3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A41148D6D6B00598D3B /* InfoPlist.strings */; };
 		4CC34A45148D6D6B00598D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A44148D6D6B00598D3B /* main.m */; };
 		4CC34A49148D6D6B00598D3B /* aws_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A48148D6D6B00598D3B /* aws_AppDelegate.m */; };
-		4CC34A4C148D6D6B00598D3B /* aws_MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A4B148D6D6B00598D3B /* aws_MasterViewController.m */; };
-		4CC34A4F148D6D6B00598D3B /* aws_DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A4E148D6D6B00598D3B /* aws_DetailViewController.m */; };
-		4CC34A52148D6D6B00598D3B /* aws_MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A50148D6D6B00598D3B /* aws_MasterViewController.xib */; };
-		4CC34A55148D6D6B00598D3B /* aws_DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A53148D6D6B00598D3B /* aws_DetailViewController.xib */; };
+		4CC34A5C148D6D8500598D3B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC34A5B148D6D8500598D3B /* CoreLocation.framework */; };
+		4CC34A5E148D6D8E00598D3B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC34A5D148D6D8E00598D3B /* MapKit.framework */; };
+		4CC34A65148D6DDB00598D3B /* aws_GameDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A60148D6DDB00598D3B /* aws_GameDetailViewController.m */; };
+		4CC34A66148D6DDB00598D3B /* aws_GameDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A61148D6DDB00598D3B /* aws_GameDetailViewController.xib */; };
+		4CC34A67148D6DDB00598D3B /* PickGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A63148D6DDB00598D3B /* PickGameViewController.m */; };
+		4CC34A68148D6DDB00598D3B /* PickGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A64148D6DDB00598D3B /* PickGameViewController.xib */; };
+		4CC34A71148D6EEE00598D3B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A6F148D6EEE00598D3B /* LoginViewController.m */; };
+		4CC34A72148D6EEE00598D3B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A70148D6EEE00598D3B /* LoginViewController.xib */; };
+		4CC34A76148D70FC00598D3B /* GameTargetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A74148D70FC00598D3B /* GameTargetsViewController.m */; };
+		4CC34A77148D70FC00598D3B /* GameTargetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A75148D70FC00598D3B /* GameTargetsViewController.xib */; };
+		4CC34A7B148D748100598D3B /* TargetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A79148D748100598D3B /* TargetDetailViewController.m */; };
+		4CC34A7C148D748100598D3B /* TargetDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A7A148D748100598D3B /* TargetDetailViewController.xib */; };
+		4CC34A80148D809600598D3B /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A7E148D809600598D3B /* SuccessViewController.m */; };
+		4CC34A81148D809600598D3B /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A7F148D809600598D3B /* SuccessViewController.xib */; };
+		4CC34A83148D813300598D3B /* yp-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A82148D813300598D3B /* yp-logo.png */; };
+		4CC34A85148D81C200598D3B /* provided_by_YP.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A84148D81C100598D3B /* provided_by_YP.gif */; };
+		4CC34A87148D897900598D3B /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A86148D897900598D3B /* grass.png */; };
+		4CC34A8B148D8C0400598D3B /* PersonListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A89148D8C0300598D3B /* PersonListingViewController.m */; };
+		4CC34A8C148D8C0400598D3B /* PersonListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A8A148D8C0300598D3B /* PersonListingViewController.xib */; };
+		4CC34A91148D8E0A00598D3B /* George.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A8D148D8E0800598D3B /* George.png */; };
+		4CC34A92148D8E0A00598D3B /* John.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A8E148D8E0800598D3B /* John.png */; };
+		4CC34A93148D8E0A00598D3B /* Paul.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A8F148D8E0900598D3B /* Paul.png */; };
+		4CC34A94148D8E0A00598D3B /* Ringo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC34A90148D8E0900598D3B /* Ringo.png */; };
+		4CC34A97148D8FEA00598D3B /* NearbyGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC34A96148D8FEA00598D3B /* NearbyGamesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,18 +44,44 @@
 		4CC34A38148D6D6B00598D3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CC34A3A148D6D6B00598D3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CC34A3C148D6D6B00598D3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4CC34A40148D6D6B00598D3B /* ScavengerHunt-Info.plist */ = {isa = PBXFileReference; path = "ScavengerHunt-Info.plist"; sourceTree = "<group>"; };
+		4CC34A40148D6D6B00598D3B /* ScavengerHunt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScavengerHunt-Info.plist"; sourceTree = "<group>"; };
 		4CC34A42148D6D6B00598D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CC34A44148D6D6B00598D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CC34A46148D6D6B00598D3B /* ScavengerHunt-Prefix.pch */ = {isa = PBXFileReference; path = "ScavengerHunt-Prefix.pch"; sourceTree = "<group>"; };
-		4CC34A47148D6D6B00598D3B /* aws_AppDelegate.h */ = {isa = PBXFileReference; path = aws_AppDelegate.h; sourceTree = "<group>"; };
+		4CC34A46148D6D6B00598D3B /* ScavengerHunt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScavengerHunt-Prefix.pch"; sourceTree = "<group>"; };
+		4CC34A47148D6D6B00598D3B /* aws_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aws_AppDelegate.h; sourceTree = "<group>"; };
 		4CC34A48148D6D6B00598D3B /* aws_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aws_AppDelegate.m; sourceTree = "<group>"; };
-		4CC34A4A148D6D6B00598D3B /* aws_MasterViewController.h */ = {isa = PBXFileReference; path = aws_MasterViewController.h; sourceTree = "<group>"; };
-		4CC34A4B148D6D6B00598D3B /* aws_MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aws_MasterViewController.m; sourceTree = "<group>"; };
-		4CC34A4D148D6D6B00598D3B /* aws_DetailViewController.h */ = {isa = PBXFileReference; path = aws_DetailViewController.h; sourceTree = "<group>"; };
-		4CC34A4E148D6D6B00598D3B /* aws_DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aws_DetailViewController.m; sourceTree = "<group>"; };
-		4CC34A51148D6D6B00598D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/aws_MasterViewController.xib; sourceTree = "<group>"; };
-		4CC34A54148D6D6B00598D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/aws_DetailViewController.xib; sourceTree = "<group>"; };
+		4CC34A5B148D6D8500598D3B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4CC34A5D148D6D8E00598D3B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4CC34A5F148D6DDB00598D3B /* aws_GameDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aws_GameDetailViewController.h; sourceTree = "<group>"; };
+		4CC34A60148D6DDB00598D3B /* aws_GameDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aws_GameDetailViewController.m; sourceTree = "<group>"; };
+		4CC34A61148D6DDB00598D3B /* aws_GameDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = aws_GameDetailViewController.xib; sourceTree = "<group>"; };
+		4CC34A62148D6DDB00598D3B /* PickGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickGameViewController.h; sourceTree = "<group>"; };
+		4CC34A63148D6DDB00598D3B /* PickGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickGameViewController.m; sourceTree = "<group>"; };
+		4CC34A64148D6DDB00598D3B /* PickGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickGameViewController.xib; sourceTree = "<group>"; };
+		4CC34A6E148D6EEE00598D3B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4CC34A6F148D6EEE00598D3B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4CC34A70148D6EEE00598D3B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4CC34A73148D70FC00598D3B /* GameTargetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTargetsViewController.h; sourceTree = "<group>"; };
+		4CC34A74148D70FC00598D3B /* GameTargetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTargetsViewController.m; sourceTree = "<group>"; };
+		4CC34A75148D70FC00598D3B /* GameTargetsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameTargetsViewController.xib; sourceTree = "<group>"; };
+		4CC34A78148D748100598D3B /* TargetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetDetailViewController.h; sourceTree = "<group>"; };
+		4CC34A79148D748100598D3B /* TargetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetDetailViewController.m; sourceTree = "<group>"; };
+		4CC34A7A148D748100598D3B /* TargetDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TargetDetailViewController.xib; sourceTree = "<group>"; };
+		4CC34A7D148D809500598D3B /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		4CC34A7E148D809600598D3B /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		4CC34A7F148D809600598D3B /* SuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
+		4CC34A82148D813300598D3B /* yp-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yp-logo.png"; sourceTree = "<group>"; };
+		4CC34A84148D81C100598D3B /* provided_by_YP.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = provided_by_YP.gif; sourceTree = "<group>"; };
+		4CC34A86148D897900598D3B /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
+		4CC34A88148D8C0300598D3B /* PersonListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListingViewController.h; sourceTree = "<group>"; };
+		4CC34A89148D8C0300598D3B /* PersonListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListingViewController.m; sourceTree = "<group>"; };
+		4CC34A8A148D8C0300598D3B /* PersonListingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonListingViewController.xib; sourceTree = "<group>"; };
+		4CC34A8D148D8E0800598D3B /* George.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = George.png; sourceTree = "<group>"; };
+		4CC34A8E148D8E0800598D3B /* John.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = John.png; sourceTree = "<group>"; };
+		4CC34A8F148D8E0900598D3B /* Paul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paul.png; sourceTree = "<group>"; };
+		4CC34A90148D8E0900598D3B /* Ringo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ringo.png; sourceTree = "<group>"; };
+		4CC34A95148D8FEA00598D3B /* NearbyGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyGamesViewController.h; sourceTree = "<group>"; };
+		4CC34A96148D8FEA00598D3B /* NearbyGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyGamesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC34A5E148D6D8E00598D3B /* MapKit.framework in Frameworks */,
+				4CC34A5C148D6D8500598D3B /* CoreLocation.framework in Frameworks */,
 				4CC34A39148D6D6B00598D3B /* UIKit.framework in Frameworks */,
 				4CC34A3B148D6D6B00598D3B /* Foundation.framework in Frameworks */,
 				4CC34A3D148D6D6B00598D3B /* CoreGraphics.framework in Frameworks */,
@@ -55,6 +103,8 @@
 		4CC34A29148D6D6B00598D3B = {
 			isa = PBXGroup;
 			children = (
+				4CC34A5D148D6D8E00598D3B /* MapKit.framework */,
+				4CC34A5B148D6D8500598D3B /* CoreLocation.framework */,
 				4CC34A3E148D6D6B00598D3B /* ScavengerHunt */,
 				4CC34A37148D6D6B00598D3B /* Frameworks */,
 				4CC34A35148D6D6B00598D3B /* Products */,
@@ -82,15 +132,39 @@
 		4CC34A3E148D6D6B00598D3B /* ScavengerHunt */ = {
 			isa = PBXGroup;
 			children = (
+				4CC34A8D148D8E0800598D3B /* George.png */,
+				4CC34A8E148D8E0800598D3B /* John.png */,
+				4CC34A8F148D8E0900598D3B /* Paul.png */,
+				4CC34A90148D8E0900598D3B /* Ringo.png */,
+				4CC34A86148D897900598D3B /* grass.png */,
+				4CC34A84148D81C100598D3B /* provided_by_YP.gif */,
+				4CC34A82148D813300598D3B /* yp-logo.png */,
+				4CC34A5F148D6DDB00598D3B /* aws_GameDetailViewController.h */,
+				4CC34A60148D6DDB00598D3B /* aws_GameDetailViewController.m */,
+				4CC34A61148D6DDB00598D3B /* aws_GameDetailViewController.xib */,
+				4CC34A62148D6DDB00598D3B /* PickGameViewController.h */,
+				4CC34A63148D6DDB00598D3B /* PickGameViewController.m */,
+				4CC34A64148D6DDB00598D3B /* PickGameViewController.xib */,
 				4CC34A47148D6D6B00598D3B /* aws_AppDelegate.h */,
 				4CC34A48148D6D6B00598D3B /* aws_AppDelegate.m */,
-				4CC34A4A148D6D6B00598D3B /* aws_MasterViewController.h */,
-				4CC34A4B148D6D6B00598D3B /* aws_MasterViewController.m */,
-				4CC34A4D148D6D6B00598D3B /* aws_DetailViewController.h */,
-				4CC34A4E148D6D6B00598D3B /* aws_DetailViewController.m */,
-				4CC34A50148D6D6B00598D3B /* aws_MasterViewController.xib */,
-				4CC34A53148D6D6B00598D3B /* aws_DetailViewController.xib */,
 				4CC34A3F148D6D6B00598D3B /* Supporting Files */,
+				4CC34A6E148D6EEE00598D3B /* LoginViewController.h */,
+				4CC34A6F148D6EEE00598D3B /* LoginViewController.m */,
+				4CC34A70148D6EEE00598D3B /* LoginViewController.xib */,
+				4CC34A73148D70FC00598D3B /* GameTargetsViewController.h */,
+				4CC34A74148D70FC00598D3B /* GameTargetsViewController.m */,
+				4CC34A75148D70FC00598D3B /* GameTargetsViewController.xib */,
+				4CC34A78148D748100598D3B /* TargetDetailViewController.h */,
+				4CC34A79148D748100598D3B /* TargetDetailViewController.m */,
+				4CC34A7A148D748100598D3B /* TargetDetailViewController.xib */,
+				4CC34A7D148D809500598D3B /* SuccessViewController.h */,
+				4CC34A7E148D809600598D3B /* SuccessViewController.m */,
+				4CC34A7F148D809600598D3B /* SuccessViewController.xib */,
+				4CC34A88148D8C0300598D3B /* PersonListingViewController.h */,
+				4CC34A89148D8C0300598D3B /* PersonListingViewController.m */,
+				4CC34A8A148D8C0300598D3B /* PersonListingViewController.xib */,
+				4CC34A95148D8FEA00598D3B /* NearbyGamesViewController.h */,
+				4CC34A96148D8FEA00598D3B /* NearbyGamesViewController.m */,
 			);
 			path = ScavengerHunt;
 			sourceTree = "<group>";
@@ -157,8 +231,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC34A43148D6D6B00598D3B /* InfoPlist.strings in Resources */,
-				4CC34A52148D6D6B00598D3B /* aws_MasterViewController.xib in Resources */,
-				4CC34A55148D6D6B00598D3B /* aws_DetailViewController.xib in Resources */,
+				4CC34A66148D6DDB00598D3B /* aws_GameDetailViewController.xib in Resources */,
+				4CC34A68148D6DDB00598D3B /* PickGameViewController.xib in Resources */,
+				4CC34A72148D6EEE00598D3B /* LoginViewController.xib in Resources */,
+				4CC34A77148D70FC00598D3B /* GameTargetsViewController.xib in Resources */,
+				4CC34A7C148D748100598D3B /* TargetDetailViewController.xib in Resources */,
+				4CC34A81148D809600598D3B /* SuccessViewController.xib in Resources */,
+				4CC34A83148D813300598D3B /* yp-logo.png in Resources */,
+				4CC34A85148D81C200598D3B /* provided_by_YP.gif in Resources */,
+				4CC34A87148D897900598D3B /* grass.png in Resources */,
+				4CC34A8C148D8C0400598D3B /* PersonListingViewController.xib in Resources */,
+				4CC34A91148D8E0A00598D3B /* George.png in Resources */,
+				4CC34A92148D8E0A00598D3B /* John.png in Resources */,
+				4CC34A93148D8E0A00598D3B /* Paul.png in Resources */,
+				4CC34A94148D8E0A00598D3B /* Ringo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +257,14 @@
 			files = (
 				4CC34A45148D6D6B00598D3B /* main.m in Sources */,
 				4CC34A49148D6D6B00598D3B /* aws_AppDelegate.m in Sources */,
-				4CC34A4C148D6D6B00598D3B /* aws_MasterViewController.m in Sources */,
-				4CC34A4F148D6D6B00598D3B /* aws_DetailViewController.m in Sources */,
+				4CC34A65148D6DDB00598D3B /* aws_GameDetailViewController.m in Sources */,
+				4CC34A67148D6DDB00598D3B /* PickGameViewController.m in Sources */,
+				4CC34A71148D6EEE00598D3B /* LoginViewController.m in Sources */,
+				4CC34A76148D70FC00598D3B /* GameTargetsViewController.m in Sources */,
+				4CC34A7B148D748100598D3B /* TargetDetailViewController.m in Sources */,
+				4CC34A80148D809600598D3B /* SuccessViewController.m in Sources */,
+				4CC34A8B148D8C0400598D3B /* PersonListingViewController.m in Sources */,
+				4CC34A97148D8FEA00598D3B /* NearbyGamesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,22 +277,6 @@
 				4CC34A42148D6D6B00598D3B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4CC34A50148D6D6B00598D3B /* aws_MasterViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CC34A51148D6D6B00598D3B /* en */,
-			);
-			name = aws_MasterViewController.xib;
-			sourceTree = "<group>";
-		};
-		4CC34A53148D6D6B00598D3B /* aws_DetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CC34A54148D6D6B00598D3B /* en */,
-			);
-			name = aws_DetailViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
